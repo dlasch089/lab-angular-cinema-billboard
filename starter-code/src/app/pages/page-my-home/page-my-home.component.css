@@ -1,0 +1,23 @@
+li {
+  list-style: none;
+}
+
+img {
+  max-height: 200px;
+}
+
+.movie-collection {
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie-collection p {
+  max-width:150px;
+  text-align:center;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

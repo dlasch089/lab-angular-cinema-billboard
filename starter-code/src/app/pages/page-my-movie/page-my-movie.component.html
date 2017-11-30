@@ -1,0 +1,24 @@
+<h1>
+    {{movie.title }}
+</h1>
+<div class="movie">
+<div class="image">
+  <img [src]="movie.poster">
+</div>
+<div class="movie-information">
+  <p>
+    <span>Actors: </span>
+    {{movie.actors}}
+  </p>
+
+  <p>
+      <span>Synopsis: </span>
+    {{movie.synopsis}}
+  </p>
+  <a [routerLink]="['/home']">Back</a>
+</div>
+
+</div>
+
+
+
